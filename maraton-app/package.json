@@ -1,0 +1,25 @@
+{
+	"name": "maraton-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+    	"dev": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.6.8",
+		"express": "^4.19.2",
+		"mysql2": "^3.9.7",
+		"sequelize": "^6.37.3",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
